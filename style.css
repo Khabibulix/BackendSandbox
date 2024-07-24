@@ -10,9 +10,9 @@ body {
 }
 
 .task-container {
-    background-color: antiquewhite;
+    background-color: lightblue;
     border-radius: 15%;
-    width: 50%;
+    width: 40%;
     height: 100%;
     margin: 15px auto;
     display:flex;
@@ -22,8 +22,6 @@ body {
 }
 
 .task-container * {
-    border: 1px solid black;
-    margin: 5px;
     width: 100%;
     padding: 5px;
 }
@@ -42,16 +40,13 @@ body {
 }
 
 #adding-task-button {
-    width: 10%;
+    width: 15%;
+    margin-left: 10px;
 }
 
 .task-list * {
     list-style-type: none;
     margin: 0;
-}
-
-.task-list .task input {
-    float: left;
 }
 
 .task-list .task p{
